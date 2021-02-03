@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left,
+            #136a8a,
+            #267871);
+    /* background: linear-gradient(to right,
+            #83a4d4,
+            #b6fbff); */
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 2000px;
+}
+
+.container {
+    /* background: lightblue; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s ease-out;
+}
+
+.profile img {
+    image-resolution: 70%;
+    width: 15rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.circle {
+    width: 12rem;
+    height: 12rem;
+    background: linear-gradient(to left,
+            #136a8a,
+            #267871);
+    position: absolute;
+    border-radius: 75%;
+    z-index: 1;
+}
+
+.info h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s ease-out;
+
+}
+
+.info h2 {
+    font-size: 1rem;
+    padding: 2rem 0rem 0.5rem 0rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s ease-out;
+
+}
+
+.info h3 {
+    font-size: 0.8rem;
+    padding: 2rem 0rem 0rem 0rem;
+    color: #585858;
+    font-weight: lighter;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.75s ease-out;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.75s ease-out;
+}
+
+.skills button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #136a8a;
+}
+
+button.active {
+    color: white;
+    background: #136a8a;
+}
+
+.contact {
+    margin-top: 3rem;
+}
+
+.contact button {
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #136a8a;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all 0.75s ease-out;
+}
