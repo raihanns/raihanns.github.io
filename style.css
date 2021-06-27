@@ -93,13 +93,13 @@ body {
     transition: all 0.75s ease-out;
 }
 
-.skills {
+.project {
     display: flex;
     justify-content: space-between;
     transition: all 0.75s ease-out;
 }
 
-.skills button {
+.project button {
     padding: 0.5rem 2rem;
     background: none;
     border: none;
